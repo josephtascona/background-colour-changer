@@ -40,7 +40,7 @@
 		-------------------------------------------------- */
 		for (var i = 0; i < sliders.length; i++) {
 			// Loop through the three range inputs and for each one, add an onchange event listener
-			sliders[i].onchange = function() {
+			sliders[i].oninput = function() {
 				// If an input range slider is moved, grab it’s id attribute value
 				var whichSlider = this.getAttribute('id');
 				// …also, grab the numerical value that it is set to
