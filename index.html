@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Background Colour Changer</title>
     <style>
         html {
@@ -12,6 +13,16 @@
             color: rgb(255, 255, 255);
             transition-property: background-color;
             transition-duration: 0.25s;
+        }
+
+        @media (max-width: 600px) {
+            html {
+                font-size: 150%;
+            }
+            input[type="range"] {
+                width: 100%;
+                margin: 10px 0;
+            }
         }
     </style>
 </head>
