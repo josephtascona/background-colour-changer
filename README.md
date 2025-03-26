@@ -10,4 +10,4 @@ A simple app for changing the colour of the background.
 1. Clone the repo
 2. Open `index.html` in your browser.
 ## Notes
-- This app is optimized for desktop only.
+- This app is optimized for desktop, and mobile.
